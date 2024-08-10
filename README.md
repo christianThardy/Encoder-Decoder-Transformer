@@ -4,4 +4,4 @@ Quantized encoder-decoder architecture for decoder-only style next token predict
 
 - Deeper understanding of full conversational context
 - Ability to ground responses in structured knowledge
-- Better generalization to new topics and domains
+- Reduce the likelihood of generating outputs that are not grounded in the input data ie. hallucinations
