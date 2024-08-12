@@ -1,6 +1,5 @@
 from transformers import PretrainedConfig
 
-
 # Update config based on unit testing/debugging scripts
 # Second version of the decoder
 class LlamaDecoderConfig(PretrainedConfig):
