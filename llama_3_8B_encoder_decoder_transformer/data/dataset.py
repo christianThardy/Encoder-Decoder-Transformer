@@ -26,7 +26,6 @@ df = pd.DataFrame(data)
 
 tokenizer = AutoTokenizer.from_pretrained("McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp")
 
-
 class InstructionDataset(Dataset):
     def __init__(self, dataframe, tokenizer, max_length):
         self.dataframe = dataframe
