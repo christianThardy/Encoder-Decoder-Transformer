@@ -1,0 +1,11 @@
+torch
+transformers
+pandas
+tqdm
+accelerate
+peft
+bitsandbytes
+wandb
+huggingface_hub
+flash-attn
+numba
