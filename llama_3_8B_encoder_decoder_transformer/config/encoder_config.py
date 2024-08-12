@@ -1,6 +1,5 @@
 from transformers import PretrainedConfig
 
-
 # Encoder
 class LlamaEncoderConfig(PretrainedConfig):
     model_type = 'LlamaEncoder'
