@@ -2,7 +2,6 @@ import copy
 
 from transformers import PretrainedConfig
 
-
 class EncoderDecoderConfig(PretrainedConfig):
     model_type = "encoder-decoder"
 
